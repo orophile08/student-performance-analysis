@@ -1,0 +1,32 @@
+STUDENT PERFORMANCE ANALYSIS
+==================================================
+
+Total Students: 200
+Total Columns: 10
+
+Column Names:
+Student_name, Student_ID, Age, Branch, Study_Hours, Attendance, Previous_Score, Assignments_Score, CGPA, Final_Score
+
+Missing Values After Cleaning:
+Student_name         0
+Student_ID           0
+Age                  0
+Branch               0
+Study_Hours          0
+Attendance           0
+Previous_Score       0
+Assignments_Score    0
+CGPA                 0
+Final_Score          0
+dtype: int64
+
+Numerical Statistics:
+              Age  Study_Hours  Attendance  Previous_Score  Assignments_Score       CGPA  Final_Score
+count  200.000000   200.000000  200.000000      200.000000         200.000000  200.00000   200.000000
+mean    20.405000     5.246000   80.780000       72.135000          76.330000    7.12980    72.165000
+std      1.683791     1.653528    9.919353       12.821416          12.562251    0.73846     7.878332
+min     18.000000     2.000000   65.000000       51.000000          55.000000    5.50000    51.000000
+25%     19.000000     3.900000   72.000000       61.000000          67.000000    6.60750    66.000000
+50%     21.000000     5.400000   81.000000       71.000000          76.000000    7.10500    72.500000
+75%     22.000000     6.700000   89.250000       83.000000          86.000000    7.63000    78.000000
+max     23.000000     8.000000   98.000000       95.000000          98.000000    8.77000    91.000000
